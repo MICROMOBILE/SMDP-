@@ -1,0 +1,11 @@
+Profile DEFINITIONS ::= BEGIN
+
+ProfilePackage ::= SEQUENCE {
+  iccid      PrintableString,
+  imsi       PrintableString,
+  msisdn     PrintableString,
+  carrier    PrintableString,
+  country    PrintableString
+}
+
+END
